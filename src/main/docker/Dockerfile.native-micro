@@ -10,11 +10,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/cron-expression .
+# docker build -f src/main/docker/Dockerfile.native-micro -t quarkus/kogito-cron-expression-exception .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/cron-expression
+# docker run -i --rm -p 8080:8080 quarkus/kogito-cron-expression-exception
 #
 ###
 FROM quay.io/quarkus/quarkus-micro-image:1.0

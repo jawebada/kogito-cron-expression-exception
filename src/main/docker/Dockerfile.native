@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/cron-expression .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/kogito-cron-expression-exception .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/cron-expression
+# docker run -i --rm -p 8080:8080 quarkus/kogito-cron-expression-exception
 #
 ###
 FROM registry.access.redhat.com/ubi8/ubi-minimal:8.5
